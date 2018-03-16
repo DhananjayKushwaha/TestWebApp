@@ -14,6 +14,9 @@ namespace TestWebApp.Controllers
         {
             var x = 100 / unusedVariable;
 
+
+            GC.Collect();
+
             return View();
         }
 
