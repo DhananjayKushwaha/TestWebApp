@@ -8,6 +8,8 @@ namespace TestWebApp.Controllers
 {
     public class HomeController : Controller
     {
+        public string unusedVariable;
+
         public ActionResult Index()
         {
             return View();
