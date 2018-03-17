@@ -8,15 +8,8 @@ namespace TestWebApp.Controllers
 {
     public class HomeController : Controller
     {
-        public int unusedVariable = 0;
-
         public ActionResult Index()
         {
-            var x = 100 / unusedVariable;
-
-
-            GC.Collect();
-
             return View();
         }
 
